@@ -1,0 +1,374 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage{paralist}
+% Set your name here
+\def\name{Dr Amit K Awasthi}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+%\def\footerlink{http://jblevins.org/projects/cv-template/}
+\def \footerlink{~}
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = magenta,
+  pdfauthor = {\name},
+  pdfkeywords = {Mathematics, Amit K Awasthi},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactitem}[#1]}{\end{compactitem}}
+				
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.55\linewidth}
+Assistant Professor\\
+Department of Applied Mathematics \\
+School of Vocational Studies and Applied Sciences\\
+  \href{http://www.gbu.ac.in/}{\textbf{Gautam Budh University}},	Greater Noida \\
+Gautam Budh Nagar- 201310\\
+Uttar Pradesh, INDIA
+\end{minipage}
+\begin{minipage}{0.40\linewidth}
+  \begin{tabular}{ll}
+	Office: & +91 120 234 4357 \\
+	Home: & +91 120 234 6319 \\
+    Mobile: & +91 9650366665 \\
+    %Fax: &  (919) 962-5678 \\
+    Email: & \href{mailto:amitkawasthi@gbu.ac.in}{\tt amitkawasthi@gbu.ac.in} \\
+		 & \href{mailto:awasthi.amitk@gmail.com}{\tt awasthi.amitk@gmail.com} \\
+    %Homepage: & \href{http://www./}{\tt Web Link} \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Education}
+
+\begin{itemize}
+  \item B. Sc., MJP Rohilkhand University, 1997.
+
+  \item M. Sc., MJP Rohilkhand University, 1999. [Gold Medal (University Topper)]
+
+  \item Ph.D. Mathematics, Dr BR Ambedkar University, 2007.
+	      \begin{itemize}
+        \item Thesis Topic: \emph{A study of some delegated digital signature schemes.}
+        %\item Thesis Proposal: \emph{Cooperative Task Processing}
+        %\item Candidacy: \emph{Research  Problems in Distributed Control for Energy Systems}
+        %\item Adviser: \href{#}{Professor Sundar Lal}
+				\item Adviser: Professor Sundar Lal
+        \item Area of Study: Cryptography
+        \end{itemize}
+\end{itemize}
+
+
+\section*{Employment}
+
+\begin{itemize}
+\item Gautam Budh University,	Greater Noida  21/07/2011 -- Till Date.
+\item PSIT Kanpur 01/08/2005 -- 19/07/2011.
+\item HCST Mathura 20/11/2001	-- 29/07/2005.
+\item TMIMT-Moradabad 22/08/2001 -- 19/11/2001
+\item CES-Moradabad	06/08/2000 -- 21/08/2001.
+\item SSPG College Shahjahanpur 01/09/1999 --	28/02/2000
+\end{itemize}
+
+\section*{Administrative Responsibilities}
+\subsection*{Gautam Budh University}
+\begin{itemize}
+\item Coordinator, Examination, School of Voc. Studies and Applied Sciences [PRESENT]
+\item Member, Web Committee [PRESENT]
+\item Member, Department Web Committee, School of Voc. Studies and Applied Sciences  [PRESENT]
+\item Warden, Sri Narayan Guru Hostel, Gautam Budh University [PRESENT]
+\item Deputy Coordinator, Admission Office 
+\item Member Syllabus Committee, School of Voc. Studies and Applied Sciences 
+
+\end{itemize}
+
+\subsection*{PSIT (Aff. Gautam Budh Technical University)}
+\begin{itemize}
+\item Dean Academics
+\item Head, Department of Applied Sciences
+\item Center Coordinator Examination Evaluation (MBA - GBTU)
+\item In Charge System Management, Networking \& Soft Ware cell
+\item Convener Ignitia (Tech Fest)
+\end{itemize}
+
+\subsection*{HCST (Aff. Gautam Budh Technical University)}
+\begin{itemize}
+\item Warden, Jr Hostel
+\item Editor, College newsletter
+\item Member, Lecture notes committee
+\item Observer Examination (GBTU)
+\end{itemize}
+
+\section*{Medal/Awards etc.}
+  \begin{itemize}
+\item Gold Medal MERIT CERTIFICAT (M. Sc. Math)  By MJPR University Bareilly (For merit in University)
+\item Gold Medal BAREILLY COLLEGE BAREILLY (M. Sc. Math) By Bareilly College Bareilly (For merit in M.Sc. prev. \& M.Sc. final)
+\item Gold Medal SRI MEVARAM MEMOREAL   (M. Sc. Math)      By Bareilly College Bareilly (Other two Gold medal in Intermediate)
+\item Consolation Prize for Elocution, Dept of Mathematics     Bareilly College Bareilly
+\item Scholarship of Higher education Department, UP Government, LUCKNOW (1998-99) for M. Sc
+\item Certificate for the most cited international research paper, (ESI)http://isiknowledge.com
+\item Certificate: Significant contribution to the scientific community, By Elsevier Publishing   (New York) 
+\item Certificate of Completion: Microsoft Digital Literacy Test - 05/06/2011    (www.Microsoft.com)
+
+\item Institute excellence Award: [2005-2006], [2006-2007] (Gold Coin), [2007-2008] (Rs.15000/-), [2008-2009] ( Rs.15000/-), [2009-2010] (Certificate of Merit), [2010-2011] - PSIT Kanpur (GBTU)
+\item A Laptop awarded for developing Online College system \& Academic performance (2005-2006) 
+      PSIT Kanpur
+\end{itemize}
+
+\section*{Research Interests}
+Cryptology, Network security, Digital Signatures, Smartcards, Authentication
+
+\section*{Publications}
+\subsection*{Books}
+\begin{itemize}
+\item Engineering Mathematics, (UG) \emph{Darbose, Prentice Hall}, (Co-authored with Dr. Sanjay Chaudhary), 2009
+\end{itemize}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+\item Awasthi, A. K. and Lal, S., Proxy blind signature scheme, (Revised), \emph{Transaction 
+               on Cryptology}, Vol. 2, Issue:  1, pp. 5 - 11 (2005).
+\item Awasthi, A. K. and Lal, S., A new remote user authentication scheme with 
+              forward secrecy,  \emph{IEEE Transactions on Consumer Electronics}, Vol. 49,  Issue: 4, 
+              pp. 1246- 1248 (2003)
+\item Awasthi, A. K. and Lal, S., An enhanced remote user authentication scheme, 
+              \emph{IEEE Transactions on Consumer Electronics}, Vol. 50,  Issue: 2.Pp. 583- 586 (2004)
+\item Awasthi, A. K., On the Authentication of the user from the Remote Autonomous 
+              Object, \emph{International Journal of Network Security}, Vol.: 1, No: 3, pp. 166-167 
+             (2005) 
+\item Awasthi, A. K. and Lal, S., ID-based ring signature and proxy ring signature 
+              schemes from bilinear pairings, \emph{International Journal of Network Security}, Vol. 4, 
+               No: 2, pp. 187-192 (2007)
+
+\item Awasthi, A. K., Remark on the Security of Strong Proxy Signature Scheme with 
+               Proxy Signer Privacy Protection, \emph{IJICS}, Vol. 4, Issue 1 (2010)
+\item Awasthi  A.  K. and  Srivastava  K. , An Improved Biometric Remote User 
+              authentication Scheme Based On Nonce.  \emph{IJCNS}, 91, Vol. 2, No. 1  January (2010)
+\item Awasthi A. K., An improved remote user authentication scheme with smartcards 
+               using bilinear pairings, \emph{IJICS}, Accepted (2010).
+\item	Awasthi A.K. and Srivastava K., R. C. Mittal, An improved timestamp-based  remote user authentication scheme, \emph{Computers and Electrical Engineering} 37 (2011), 869 -874                                                                                                  
+\end{itemize}
+
+\subsection*{Online Publication}
+
+\begin{itemize}
+\item Proxy blind signature scheme, Cryptology e-Print Archive, Report 2003/072 
+              (2003) 
+\item A scheme for obtaining a warrant message from digital proxy signatures 
+               Cryptology e-Print Archive, Report 2003/073 (2003) 
+\item Id-based ring signature and proxy ring signature schemes from bilinear 
+               pairings Cryptology e-Print Archive, Report 2004/184 (2004) 
+\item Security    analysis of a  dynamic ID-based remote user  authentication  scheme
+               Cryptology e-Print Archive, Report 2004/238 (2004) 
+\item A new remote user authentication scheme using smart cards with check digits. 
+               \href{http://arxiv.org/abs/cs.CR/0504094}{[ArXiv]}
+\item An Improved Remote User Authentication Scheme with Smart Cards using 
+               Bilinear Pairings, Cryptology e-Print Archive, Report 2007/418, (2007)
+\item  An  Improved  Timestamp Based  Password  Remote  User  Authentication  
+               Scheme e-Print Archive, Report 2010/036 (2010)
+
+\end{itemize}
+
+\subsection*{Conference}
+
+\begin{itemize}
+
+\item Model for single level lot sizing and scheduling, IMS 64th annual conference, 
+               Gurukul Kangri Univ. Haridwar 1998 
+\item A note on password  authentication scheme based on unit circle, on analysis and    
+             discrete structures, IITKharagpur 2002. International Conference*(Accepted) 
+\item A delegated digital signature scheme, SCI 2003, Orlando, USA International    
+       Conference*(Accepted)
+\item Blind Signcryption, International Conference on number theory for secure 
+               communications, SASTRA deemed university, Kumbakonam, Tamilnadu 2003 
+\item Digital Signature Scheme (By S Mookerji) Gyanjyoti, HCST, Mathura 2003 
+\item A new multi proxy signature scheme for partial delegation with warrant,  18th 
+               RMS annual Conference., July 2003 
+\item A delegated digital signature scheme with non-repudiation National conference 
+               On application of mathematics in information technology, RBS College, Agra., 
+               March 2003 
+\item A new proxy ring signature scheme Proceeding of RMS Annual Conference 2004, 
+               Page29. Also available at : 
+							\href{http://arxiv.org/abs/cs.CR/0410010}{[ArXiv]}
+\item An efficient scheme for sensitive message transmission using blind Signcryption, 
+             10th annual conference of Vijnana Parishad of India, 2004, Bhopal, Also available 
+              At: 
+							\href{http://arxiv.org/abs/cs.CR/0504095}{[ArXiv]}
+	\item  Gaurav Sharma, Shivam Gupta, Amit K. Awasthi and Garima Sharma, Use of Single Nucleotide Polymorphism in Disease Assessment and Management by using Geo-Informatics System, 4th International Conference on healthGIS 2011, 5-6 August, 2011, New Delhi, India
+\end{itemize}
+
+\subsection*{Proceedings}
+\begin{itemize}
+\item Awasthi, A. K. and Srivastava, K., A New User Authentication Scheme Using 
+              Chaotic Hash Function on Mobile Devices, \emph{IEEE International Advance Computing 
+               Conference (IACC 2009)}, Patiala, India, March, p. 1550-1553 (2009)
+\item 	Arif Siddique, Amit K Awasthi, An Advance ATM Machine Service: Making Demand Draft through ATM Machine, 5th IEEE International Conference on Advanced Computing \& Communication Technologies [ICACCT-2011] , Ed. R.K. Choudhary, Manoj Verma and Sanjeev Saini, ABC Group of Publication, India November 05 (2011), pp. 10-14.
+\end{itemize}
+
+\section*{Other Research Activities}
+\subsection*{Member of professional bodies }
+\begin{itemize}
+\item Indian Mathematical Society
+\item Cryptology Research Society of India
+\item Group for Cryptology Research
+\item Group for Mathematics 
+\item ACM  
+\item ICST
+\item European Alliance for Innovation
+\item SDIWC Year:2011-12
+
+\end{itemize}
+
+\subsection*{Editor}
+\begin{itemize}
+\item Editor, Elsevier Science's Computer Standards \& Interfaces
+\item Associate Editor, Elsevier Science's Computers \& Electrical Engineering 
+\item Associate Editorial Board (IJCA) International Journal of Computer Applications 
+\item Chief Editor - International Journal of Applied Mathematics and Computation 
+\item International Journal of Network Security  
+\item Asian Journal of Algebra as Technical Editor
+\item Journal of Applied Sciences as Technical Editor
+\item Research Journal of Information Technology as Technical Editor
+\item Editorial Board in Special Issue on Applications and Security Services in Web and Pervasive Environments in Int. Journal of Intelligent Automation and Soft Computing
+\end{itemize}
+
+\subsection*{Reviewer}
+\begin{itemize}
+\item Elsevier Science's Journal of Systems and Software
+\item Elsevier Science's Data \& Knowledge Engineering  
+\item Elsevier Science's Computer Standards \& Interfaces
+\item Elsevier Science's Computers \& Electrical Engineering
+\item ACTA Press / IASTED - International Journal of Computers and Applications
+\item IEEE Transactions on Consumer Electronics
+\item IEEE Security \& Privacy
+\item IEEE Transactions on Knowledge and Data Engineering
+\item International Journal of Computer Mathematics
+\item Journal of Computer Science and Technology (JCST)
+\item Systematics Cybernetics and Informatics
+\item International Journal of Network Security 
+\item Journal of Computer Science and Technology 
+\item International Journal of Computer Mathematics (worldscinet)
+\item JAIT
+\item JCP
+\item IJoAT 
+\item \textbf{Conferences}
+	\begin{itemize}
+	\item CCCT 2004 conference, CCCT 2010, CCCT 2011 conference
+	\item IIS, Academia Sinica, JOURNAL OF INFORMATION SCIENCE AND ENGINEERING
+	\item IMCIC 2010 conference
+  \item ISAS 2010, 2011 conference, 
+  \item AG 2010, 2011
+  \item WMSCI 2010, 2011 Conference
+  \item SICT 2010, 2011 Conference
+  \item S2ES 2010, 2011 C0nference
+	\end{itemize}
+\end{itemize}
+
+\subsection*{Program Committee}
+\begin{itemize}
+\item ICIEIS 2011 - MALAYSIA - University Technology Malaysia [SDIWC]
+\item DEXA 2010 - SPAIN     -University of Deusto  [21st International Conference] 
+\item NSSCT 2010 - KOREA    - Island Jeju   [International Conference]
+\item DEXA 2009 - AUSTRIA -University of Linz  [20th International Conference]
+\item National Conference on Techno-Lingual Communication - PSIT Kanpur (GBTU)
+\item ICMR Sponsored Seminar on BIOSTATISTICS -  PSIT Kanpur (GBTU)
+\item National Workshop on Polymer Science -  HCST Mathura (UPTU)
+\end{itemize}
+
+\section*{QIP/Workshop/Short term course}
+\begin{itemize}
+\item Faculty Development Program, IIT ROORKEE
+\item Short Term Course on Environmental Impact Assessment, IIT KANPUR
+\item Short Term Training Program on Quality Assurance in Technical Education, TTTI CHANDIGARH
+\item Workshop on Methodology of Teaching Mathematics and Electrical Engineering at
+       BBD Engineering College, LKO organized by UPTU
+\item Faculty Development Program, HIMCS Mathura
+\item A work shop on counseling skills at Agra, HIMCS Mathura 
+\end{itemize}
+
+\section*{Personal}
+
+\begin{itemize}
+\item S/o Sri Hari Om Awasthi
+\item Born on August 06, 1977.
+\item Permanant Address - Ghunghchai, Puranpur, Pilibhit, UP.
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
